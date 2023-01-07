@@ -1,0 +1,257 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.child{
+    display: flex;
+    width: 33%;
+    overflow: hidden;
+    justify-content: center;
+  position: relative;
+}
+button{
+    width: 20vw;
+  height: 35vh;
+  font-size: 10rem;
+}
+.image{
+    width: 15vw;
+  height: 25vh;
+  transition: 400ms;
+}
+#btn1{
+  height: 35vh;
+  position: relative;
+  left: 6.5vw   ;
+  
+}
+#btn3{
+  position: relative;
+  right: 6.5vw;
+  
+}
+.image1{
+  height: 25vh;
+  
+  
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.container3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32vh;
+  position: relative;
+}
+.image:hover  {
+  scale: 1.2;
+}
+
+button{
+  background: none;
+  border: 2px solid black ;
+  border-radius: 5px;
+}
+.choose h1{
+  text-transform: uppercase;
+  font-family: 'Silkscreen', cursive;
+}
+#last{
+  text-transform: uppercase;
+  font-family: 'Silkscreen', cursive;
+  display: flex;
+  justify-content: center;
+  width: 120vw;
+}
+
+.yous{
+  display: block;
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+}
+.comps{
+  display: block;
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+}
+#you{
+  height: 26vh;
+  width: 26vw;
+  
+  position: relative;
+  right: 6vw;
+  border-style: dashed;
+  margin-bottom: -4vh;
+  font-size: 8rem;
+  
+}   
+#comp{
+  height: 26vh;
+  width: 26vw;
+  
+  position: relative;
+  left: 6vw;
+  border-style: dashed;
+  margin-bottom: -4vh;
+  font-size: 8rem;
+}  
+.youh{
+  position: relative;
+  bottom: 15vh;
+  display: flex;
+  justify-content: center;
+  width: 26vw;
+  left: 6vw;
+} 
+.comph{
+  position: relative;
+  bottom: 15vh;
+  display: flex;
+  justify-content: center;
+  width: 26vw;
+  right: 6vw;
+} 
+#uchoice{
+  width: 12vw;
+height: 25.4vh;
+  
+  
+}
+#cchoice{
+  width: 12vw;
+height: 25.4vh;
+}
+.youh1{
+  font-family: 'Silkscreen', cursive;
+}
+.comph1{
+  font-family: 'Silkscreen', cursive;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+@media all and (max-width:400px){
+  .main-cont{
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  .main-cont2{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+  }
+  .main-cont1{
+    height: 60vh;
+  }
+  #btn1 , #btn2 , #btn3{
+   position: unset;
+   width: 30vw;
+    height: 20vh;
+    font-size: 80px;
+  }
+  .image{
+    height: 15vh;
+    width: 23vw;
+  }
+  button{
+    height: 25vh;
+    width: 25vw;
+  }
+ #you{
+  height: 25vh;
+    width: 25vw;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 100px;
+ }
+#uchoice{
+  height: 22vh;
+    width: 22vw;
+}
+.container4{
+  order: 1;
+  height: 7vh;
+}
+.container3{
+  order: 2;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 53vh;
+  position: unset;
+  grid-template-rows: 5vh 15vh 5vh 15vh 13vh;
+}
+.main-cont1{
+  display: flex;
+  flex-direction: column;
+}
+.comph{
+  order: 1;
+  position: unset;
+  font-size: 1.2vh;
+  width: unset;
+}
+#comp{order: 2;
+position: unset;
+margin-bottom: 0;
+display: flex;
+    justify-content: center;
+    align-items: center;
+height: 17vh;
+width: 30vw;
+     font-size: 100px;}
+
+#last{
+  order: 5;
+  width: 100vw;
+  text-align: center;
+  font-size:3vw ;
+  
+}
+#cchoice{
+  height: 16vh;
+width: 29vw;}
+#uchoice{
+  height: 16vh;
+width: 29vw;
+}
+.youh{order: 3;
+position: unset;
+font-size: 1.2vh;
+}
+#you{
+  order: 4;
+height: 17vh;
+width: 30vw;
+position: unset;
+margin-bottom: 0;
+}
+.choose h1{font-size: 17px;
+          text-align: center;}
+.container2{height: unset;}
+.container1{height: 10vh;
+align-items: unset;}
+  .score{
+    font-size: 2vh;
+  }
+}
